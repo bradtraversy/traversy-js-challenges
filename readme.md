@@ -1,4 +1,4 @@
-# Traversy JS Challenges, Data Structures, and Algorithms
+# Traversy JS Challenges: Data Structures, and Algorithms
 
 This is the sandbox for my [70+ JS Challenges: Data Structures & Algorithms Course](https://www.traversymedia.com/javascript-challeges). Just about all of the concepts that are included, also exist in other languages. So, if you are not a JavaScript developer, you can still follow along and learn from this course/repo.
 
