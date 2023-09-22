@@ -18,5 +18,14 @@ function reverseString(str) {
   // Return the reversed string
   return reversed;
 }
-
+//////////////////////////////////////solution 3
+const reverseString = function(string){
+  let reverse = []; 
+  const words = string.split('');
+    for(let x = words.length-1;x>=0;x--){
+        reverse.push(words[x]);
+    }
+    return reverse.join('') ; 
+}
+///////////////////////////////////////
 module.exports = reverseString;
