@@ -58,3 +58,15 @@ function reverseString(str) {
 }
 
 module.exports = isPalindrome;
+
+// Solution 3
+const isPalindrome = function(string){
+    let reverseWordArray = [];
+    const words = string.split('');
+    for(let x= words.length-1;x>=0;x--){
+        reverseWordArray.push(words[x]);
+    }
+    let reverseWord = reverseWordArray.join('');
+    return reverseWord===string ; 
+    
+}
