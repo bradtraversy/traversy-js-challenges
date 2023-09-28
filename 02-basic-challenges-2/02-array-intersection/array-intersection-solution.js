@@ -33,3 +33,18 @@ function arrayIntersection(arr1, arr2) {
 }
 
 module.exports = arrayIntersection;
+
+// Solution 3
+let newArray = [];
+const arrayIntersection = function(arr1,arr2){
+    for(let x= 0 ; x<arr1.length;x++){
+        for(let y = 0 ; y<arr2.length;y++){
+            if(arr2[y]===arr1[x]){
+                newArray.push(arr2[y]);
+            }else{
+                continue
+            }
+        }
+    }
+    return newArray ; 
+}
