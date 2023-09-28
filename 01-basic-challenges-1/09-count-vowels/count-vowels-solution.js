@@ -26,3 +26,17 @@ function countVowels(str) {
 }
 
 module.exports = countVowels;
+
+
+////////////////////////////////////// my solution 
+let count = 0;
+const countVowel = function(string){
+    const letter = string.split('');
+    letter.forEach((item)=>{
+        if(item==='a'||item==='e'||item==='o'||item==='i'){
+            count++
+        }
+    })
+    return count ; 
+}
+console.log(countVowel('mahdi'));
