@@ -5,4 +5,5 @@ test('Checking for Valid Anagrams', () => {
   expect(validAnagrams('hello', 'world')).toBe(false);
   expect(validAnagrams('astronomer', 'moonstarer')).toBe(true);
   expect(validAnagrams('apple', 'banana')).toBe(false);
+  expect(validAnagrams('aaa', 'aaab')).toBe(false);
 });
