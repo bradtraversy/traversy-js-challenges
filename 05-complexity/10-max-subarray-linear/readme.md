@@ -25,7 +25,7 @@ console.log(maxSubarraySum(arr1, k1)); // Output: 24
 
 const arr2 = [-2, -5, -3, -1, -11, -7, -6, -4];
 const k2 = 4;
-console.log(maxSubarraySum(arr2, k2)); // Output: -9
+console.log(maxSubarraySum(arr2, k2)); // Output: -11
 ```
 
 ### Constraints
