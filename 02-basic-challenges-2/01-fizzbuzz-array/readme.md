@@ -14,9 +14,9 @@ In this challenge, you will write a function called `fizzBuzzArray` that takes i
 /**
  * Returns an array of numbers from 1 to the number passed in.
  * @param {number} num - The number to loop up to.
- * @returns {any[]} - The array of numbers.
+ * @returns {Array<string | number>} - The array of strings or numbers.
  */
-function fizzBuzzArray(num: number): any[];
+function fizzBuzzArray(num: number): Array<string | number>;
 ```
 
 ### Examples
