@@ -9,10 +9,10 @@ Write a function called `removeDuplicates` that takes in an array and returns a 
 ```js
 /**
  * Returns a new array with duplicates removed.
- * @param {any[]} arr - The array to remove duplicates from.
- * @returns {any[]} - The new array with duplicates removed.
+ * @param {Array<string | boolean | number>} arr - The array to remove duplicates from.
+ * @returns {Array<string | boolean | number>[]} - The new array with duplicates removed.
  */
-function removeDuplicates(arr: any[]): any[];
+function removeDuplicates(arr: Array<string | boolean | number>): Array<string | boolean | number>;
 ```
 
 ### Examples
@@ -25,7 +25,7 @@ removeDuplicates([1, 2, 3, 4, 5, true, 1, 'hello' 2, 3, 'hello', true]); // [1, 
 
 ### Constraints
 
-- The array can contain any data type
+- The array can contain strings, numbers or boolean data types.
 
 ### Hints
 
