@@ -30,7 +30,7 @@ Due to the nested loops, the time required to execute the sumArray function incr
 
 We can see this by looking at our chart:
 
-![Quadratic Time Complexity](./images/time-complexity.webp)
+![Quadratic Time Complexity](/assets/images/time-complexity.webp)
 
 So in general, quadratic time complexity is not very efficient. However, there are some cases where it is the best or the only solution.
 
